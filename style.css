@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #e9a9e9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #5a565a;
+    color: rgb(240, 237, 238);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #70097e;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e9a9e9;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 0 0 15px;
+    font-size: 32px;
+}
+
+.hero p {
+    margin: 0;
+}
+
+/* All Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Projects */
+.project {
+    background: #e9a9e9;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(238, 235, 235, 0.1);
+}
+
+/* Contact Form */
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+form textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+form button {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button:hover {
+    background: #444;
+}
+
+/* Footer */
+footer {
+    background: #f1ebeb;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
+
+    nav a {
+        margin: 5px 8px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
